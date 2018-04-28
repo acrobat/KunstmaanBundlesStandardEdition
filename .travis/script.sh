@@ -24,7 +24,6 @@ bin/console cache:clear --env=test  --no-interaction
 bin/console cache:warmup --env=test --no-interaction
 #chmod -R 777 var/cache/ var/logs/
 bin/console server:start
-#phpunit -c app
 #php -d memory_limit=2048M bin/behat --suite=default --verbose
 bin/console server:stop
 
