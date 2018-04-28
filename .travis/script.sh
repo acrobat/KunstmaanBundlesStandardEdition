@@ -7,6 +7,8 @@ bin/console lint:yaml app/config || exit $?
 # this checks that the composer.json and composer.lock files are valid
 #composer validate --strict || exit $?
 
+chmod -R 777 .travis/build
+
 bin/console kuma:generate:bundle --namespace="MyProject\\WebsiteBundle" --dir=src --no-interaction
 bin/console kuma:generate:default-site --namespace="MyProject\\WebsiteBundle" --prefix="myproject_" --demosite --browsersync=kunstmaanbundlescms.dev --articleoverviewpageparent="HomePage,ContentPage" --no-interaction
 bundle install
