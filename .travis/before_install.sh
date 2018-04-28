@@ -15,4 +15,4 @@ echo "memory_limit = -1" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d
 composer self-update --stable || exit $?
 
 # TODO: check if still needed
-#google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &

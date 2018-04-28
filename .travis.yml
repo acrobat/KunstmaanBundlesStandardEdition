@@ -1,10 +1,10 @@
 dist: trusty
-sudo: false
+sudo: true
 
 language: php
 
 addons:
-#  chrome: stable
+  chrome: stable
   apt:
     packages:
     - ghostscript
