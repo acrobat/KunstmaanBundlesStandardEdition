@@ -8,7 +8,7 @@ bin/console lint:yaml app/config || exit $?
 #composer validate --strict || exit $?
 
 bin/console kuma:generate:bundle --namespace="MyProject\\WebsiteBundle" --dir=src --no-interaction
-bin/console kuma:generate:default-site --namespace="MyProject\\WebsiteBundle" --prefix="myproject_" --demosite --browsersync=kunstmaanbundlescms.dev --no-interaction
+bin/console kuma:generate:default-site --namespace="MyProject\\WebsiteBundle" --prefix="myproject_" --demosite --browsersync=kunstmaanbundlescms.dev --articleoverviewpageparent="HomePage,ContentPage" --no-interaction
 bundle install
 npm install
 bower install
