@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-cp "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/files/behat-travis.yml" ./behat.yml
+#cp "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/files/behat-travis.yml" ./behat.yml
 
 # this checks that the YAML config files contain no syntax errors
 bin/console lint:yaml app/config || exit $?
 # this checks that the composer.json and composer.lock files are valid
-composer validate --strict || exit $?
+#composer validate --strict || exit $?
 
 bin/console kuma:generate:bundle --namespace="MyProject\\WebsiteBundle" --dir=src --no-interaction
 bin/console kuma:generate:default-site --namespace="MyProject\\WebsiteBundle" --prefix="myproject_" --demosite --browsersync=kunstmaanbundlescms.dev --no-interaction
