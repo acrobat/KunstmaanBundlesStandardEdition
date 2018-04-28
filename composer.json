@@ -29,7 +29,8 @@
         "fzaninotto/faker": "~1.5",
         "nelmio/alice": "^2.1.4",
         "behat/mink-extension": "~2.0",
-        "lakion/mink-debug-extension": "^1.2"
+        "lakion/mink-debug-extension": "^1.2",
+        "se/selenium-server-standalone": "3.4.*"
     },
     "scripts": {
         "post-root-package-install": [

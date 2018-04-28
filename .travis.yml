@@ -4,7 +4,7 @@ sudo: false
 language: php
 
 addons:
-  chrome: stable
+#  chrome: stable
   apt:
     packages:
     - ghostscript
@@ -59,7 +59,8 @@ install:
 #  - chmod -R 777 var/cache/ var/logs/
 
 
-#before_script:
+before_script:
+  - .travis/before_script.sh
 #  - sh -c "if [ '$DB' = 'mysql' ]; then mysql -e 'create database IF NOT EXISTS kunstmaanbundles;'; fi"
 #  - cp app/config/parameters.yml.dist app/config/parameters.yml
 #  - sh -c "if [ '$DB' = 'mysql' ]; then sed -i 's/dbuser/travis/g' app/config/parameters.yml; fi"
@@ -75,7 +76,8 @@ install:
 #  - java -jar selenium-server-standalone-2.53.1.jar > /dev/null 2>&1 &
 #  - sleep 5
 #
-#script:
+script:
+  - .travis/script.sh
 #  - bin/console kuma:generate:bundle --namespace="MyProject\\WebsiteBundle" --no-interaction --dir=src
 #  - bin/console kuma:generate:default-site --namespace="MyProject\\WebsiteBundle" --prefix="myproject_" --demosite --browsersync=kunstmaanbundlescms.dev --no-interaction
 #  - bundle install
