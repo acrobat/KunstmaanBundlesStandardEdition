@@ -63,8 +63,8 @@ before_script:
   - php vendor/sensio/distribution-bundle/Resources/bin/build_bootstrap.php
   - bin/console --force --no-interaction doctrine:schema:drop --env=dev
   - bin/console --no-interaction doctrine:schema:create --env=dev
+  - /sbin/start-stop-daemon --start --quiet --pidfile /tmp/xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1680x1050x16
   - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
   - sleep 3
   - wget http://selenium-release.storage.googleapis.com/3.9/selenium-server-standalone-3.9.1.jar
   - wget https://chromedriver.storage.googleapis.com/2.37/chromedriver_linux64.zip
