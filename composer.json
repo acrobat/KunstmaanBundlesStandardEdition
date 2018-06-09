@@ -14,7 +14,7 @@
         "ekino/newrelic-bundle": "~1.3.2",
         "doctrine/doctrine-migrations-bundle": "~1.1",
         "sentry/sentry": "^1.4",
-        "friendsofsymfony/user-bundle": "^2.0"
+        "friendsofsymfony/user-bundle": "2.0.*"
     },
     "require-dev": {
         "behat/behat": "dev-master",
