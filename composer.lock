@@ -2836,12 +2836,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acrobat/KunstmaanBundlesCMS.git",
-                "reference": "76ddfc4be45ab5ef6fc50b3b35839b6a9b35788f"
+                "reference": "da898a4230b7b03b271a4818b52b6deff5037b96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/76ddfc4be45ab5ef6fc50b3b35839b6a9b35788f",
-                "reference": "76ddfc4be45ab5ef6fc50b3b35839b6a9b35788f",
+                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/da898a4230b7b03b271a4818b52b6deff5037b96",
+                "reference": "da898a4230b7b03b271a4818b52b6deff5037b96",
                 "shasum": ""
             },
             "require": {
@@ -2957,7 +2957,7 @@
             "support": {
                 "source": "https://github.com/acrobat/KunstmaanBundlesCMS/tree/relax-fos-user-dependency-constraint"
             },
-            "time": "2018-06-09T10:36:41+00:00"
+            "time": "2018-06-09T12:18:17+00:00"
         },
         {
             "name": "kunstmaan/google-api-custom",
