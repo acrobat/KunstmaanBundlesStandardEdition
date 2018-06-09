@@ -91,7 +91,7 @@ script:
   - chmod -R 777 var/cache/ var/logs/
   - bin/console server:start
   - phpunit
-  - php -d memory_limit=2048M bin/behat --suite=default --verbose
+  - php -d memory_limit=2048M bin/behat --stop-on-failure --suite=default --verbose
   - bin/console server:stop
 
 after_failure:
