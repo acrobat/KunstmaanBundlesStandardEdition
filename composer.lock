@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3cb12ed3c39f660c529a93e4d0662534",
+    "content-hash": "192e1e4d895c7303b56316d68506555b",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2761,16 +2761,16 @@
         },
         {
             "name": "kunstmaan/bundles-cms",
-            "version": "dev-master",
+            "version": "dev-fix-framework-extra-bc-breaks-2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Kunstmaan/KunstmaanBundlesCMS.git",
-                "reference": "8b955eb6c74c511eacf7afef5417726b179a75a3"
+                "url": "https://github.com/acrobat/KunstmaanBundlesCMS.git",
+                "reference": "c704f7f3912a43db02726708ecd8ebdcfd9fa567"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kunstmaan/KunstmaanBundlesCMS/zipball/8b955eb6c74c511eacf7afef5417726b179a75a3",
-                "reference": "8b955eb6c74c511eacf7afef5417726b179a75a3",
+                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/c704f7f3912a43db02726708ecd8ebdcfd9fa567",
+                "reference": "c704f7f3912a43db02726708ecd8ebdcfd9fa567",
                 "shasum": ""
             },
             "require": {
@@ -2786,7 +2786,7 @@
                 "doctrine/orm": "^2.5",
                 "egulias/email-validator": "^1.2.8|^2.0",
                 "fpn/doctrine-extensions-taggable": "~0.9",
-                "friendsofsymfony/user-bundle": "2.0.*",
+                "friendsofsymfony/user-bundle": "^2.0",
                 "gedmo/doctrine-extensions": "~2.3",
                 "guzzlehttp/guzzle": "~6.1",
                 "imagine/imagine": "~0.6",
@@ -2797,7 +2797,6 @@
                 "liip/imagine-bundle": "~1.7",
                 "php": ">=5.6.0",
                 "ruflin/elastica": "^5.1|^6.0",
-                "sensio/distribution-bundle": "^5.0",
                 "sensio/framework-extra-bundle": "^5.0",
                 "sensio/generator-bundle": "~3.0",
                 "stof/doctrine-extensions-bundle": "~1.1",
@@ -2811,7 +2810,7 @@
                 "white-october/pagerfanta-bundle": "~1.0"
             },
             "conflict": {
-                "friendsofsymfony/user-bundle": "<2.0.0, >=2.1.0"
+                "friendsofsymfony/user-bundle": "<2.0.0"
             },
             "replace": {
                 "kunstmaan/admin-bundle": "self.version",
@@ -2866,7 +2865,6 @@
                     "Kunstmaan\\": "src/Kunstmaan/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2885,7 +2883,10 @@
             "keywords": [
                 "cms"
             ],
-            "time": "2018-07-11T13:23:45+00:00"
+            "support": {
+                "source": "https://github.com/acrobat/KunstmaanBundlesCMS/tree/fix-framework-extra-bc-breaks-2"
+            },
+            "time": "2018-08-02T11:15:55+00:00"
         },
         {
             "name": "kunstmaan/google-api-custom",
