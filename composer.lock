@@ -2765,12 +2765,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acrobat/KunstmaanBundlesCMS.git",
-                "reference": "c704f7f3912a43db02726708ecd8ebdcfd9fa567"
+                "reference": "73683136b24e305302966b6ab18a8cd7bb15db46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/c704f7f3912a43db02726708ecd8ebdcfd9fa567",
-                "reference": "c704f7f3912a43db02726708ecd8ebdcfd9fa567",
+                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/73683136b24e305302966b6ab18a8cd7bb15db46",
+                "reference": "73683136b24e305302966b6ab18a8cd7bb15db46",
                 "shasum": ""
             },
             "require": {
@@ -2886,7 +2886,7 @@
             "support": {
                 "source": "https://github.com/acrobat/KunstmaanBundlesCMS/tree/fix-framework-extra-bc-breaks-2"
             },
-            "time": "2018-08-02T11:15:55+00:00"
+            "time": "2018-08-02T12:37:13+00:00"
         },
         {
             "name": "kunstmaan/google-api-custom",
