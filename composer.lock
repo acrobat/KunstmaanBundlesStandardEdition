@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3cb12ed3c39f660c529a93e4d0662534",
+    "content-hash": "e0694119c6e7663748c90fd94c3edea5",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2761,23 +2761,23 @@
         },
         {
             "name": "kunstmaan/bundles-cms",
-            "version": "dev-master",
+            "version": "dev-update-dependencies",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Kunstmaan/KunstmaanBundlesCMS.git",
-                "reference": "8b955eb6c74c511eacf7afef5417726b179a75a3"
+                "url": "https://github.com/acrobat/KunstmaanBundlesCMS.git",
+                "reference": "f165ffa07d95b7bf478cd1b6531a196fe604654e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kunstmaan/KunstmaanBundlesCMS/zipball/8b955eb6c74c511eacf7afef5417726b179a75a3",
-                "reference": "8b955eb6c74c511eacf7afef5417726b179a75a3",
+                "url": "https://api.github.com/repos/acrobat/KunstmaanBundlesCMS/zipball/f165ffa07d95b7bf478cd1b6531a196fe604654e",
+                "reference": "f165ffa07d95b7bf478cd1b6531a196fe604654e",
                 "shasum": ""
             },
             "require": {
                 "behat/transliterator": "~1.2",
                 "box/spout": "^2.5",
                 "ddeboer/data-import-bundle": "~0.1",
-                "defuse/php-encryption": "v2.1.0",
+                "defuse/php-encryption": "^2.1",
                 "doctrine/dbal": "^2.5",
                 "doctrine/doctrine-bundle": "^1.6",
                 "doctrine/doctrine-cache-bundle": "^1.2",
@@ -2786,7 +2786,7 @@
                 "doctrine/orm": "^2.5",
                 "egulias/email-validator": "^1.2.8|^2.0",
                 "fpn/doctrine-extensions-taggable": "~0.9",
-                "friendsofsymfony/user-bundle": "2.0.*",
+                "friendsofsymfony/user-bundle": "^2.0",
                 "gedmo/doctrine-extensions": "~2.3",
                 "guzzlehttp/guzzle": "~6.1",
                 "imagine/imagine": "~0.6",
@@ -2797,21 +2797,41 @@
                 "liip/imagine-bundle": "~1.7",
                 "php": ">=5.6.0",
                 "ruflin/elastica": "^5.1|^6.0",
-                "sensio/distribution-bundle": "^5.0",
                 "sensio/framework-extra-bundle": "^5.0",
                 "sensio/generator-bundle": "~3.0",
                 "stof/doctrine-extensions-bundle": "~1.1",
                 "symfony-cmf/routing-bundle": "~2.0",
-                "symfony/monolog-bundle": "~2.8|~3.0",
-                "symfony/security-acl": "~2.8|~3.0",
+                "symfony/acl-bundle": "^1.0",
+                "symfony/config": "^3.4",
+                "symfony/console": "^3.4",
+                "symfony/dependency-injection": "^3.4",
+                "symfony/dom-crawler": "^3.4",
+                "symfony/event-dispatcher": "^3.4",
+                "symfony/filesystem": "^3.4",
+                "symfony/finder": "^3.4",
+                "symfony/form": "^3.4",
+                "symfony/framework-bundle": "^3.4",
+                "symfony/http-foundation": "^3.4",
+                "symfony/http-kernel": "^3.4",
+                "symfony/inflector": "^3.4",
+                "symfony/options-resolver": "^3.4",
+                "symfony/property-access": "^3.4",
+                "symfony/routing": "^3.4",
+                "symfony/security": "^3.4",
+                "symfony/security-acl": "^2.8|^3.0",
+                "symfony/serializer": "^3.4",
                 "symfony/swiftmailer-bundle": "^2.3",
-                "symfony/symfony": "~3.4",
+                "symfony/templating": "^3.4",
+                "symfony/translation": "^3.4",
+                "symfony/twig-bundle": "^3.4",
+                "symfony/validator": "^3.4",
+                "symfony/yaml": "^3.4",
                 "twig/extensions": "~1.0",
                 "twig/twig": "^1.12|^2.0",
                 "white-october/pagerfanta-bundle": "~1.0"
             },
             "conflict": {
-                "friendsofsymfony/user-bundle": "<2.0.0, >=2.1.0"
+                "friendsofsymfony/user-bundle": "<2.0.0"
             },
             "replace": {
                 "kunstmaan/admin-bundle": "self.version",
@@ -2839,18 +2859,18 @@
                 "kunstmaan/voting-bundle": "self.version"
             },
             "require-dev": {
-                "behat/behat": "3.1.0rc1",
-                "behat/mink": "dev-master",
-                "behat/mink-browserkit-driver": "dev-master",
-                "behat/mink-goutte-driver": "dev-master",
-                "behat/mink-sahi-driver": "dev-master",
-                "behat/mink-selenium2-driver": "dev-master",
+                "behat/behat": "^3.4",
+                "behat/mink": "^1.7",
+                "behat/mink-browserkit-driver": "^1.3",
+                "behat/mink-goutte-driver": "^1.2",
+                "behat/mink-sahi-driver": "^1.2",
+                "behat/mink-selenium2-driver": "^1.3",
                 "behat/symfony2-extension": "~2.1.1",
                 "codeception/codeception": "^2.4",
                 "ekino/newrelic-bundle": "^1.4",
                 "fzaninotto/faker": "~1.6",
-                "matthiasnoback/symfony-config-test": "2.2.0",
-                "matthiasnoback/symfony-dependency-injection-test": "1.2.0",
+                "matthiasnoback/symfony-config-test": "^2.2",
+                "matthiasnoback/symfony-dependency-injection-test": "^1.2",
                 "nelmio/alice": "^2.1.4",
                 "phpunit/phpunit": "^5.3.27",
                 "symfony/phpunit-bridge": "~3.0"
@@ -2866,7 +2886,6 @@
                     "Kunstmaan\\": "src/Kunstmaan/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2885,7 +2904,10 @@
             "keywords": [
                 "cms"
             ],
-            "time": "2018-07-11T13:23:45+00:00"
+            "support": {
+                "source": "https://github.com/acrobat/KunstmaanBundlesCMS/tree/update-dependencies"
+            },
+            "time": "2018-08-02T12:03:20+00:00"
         },
         {
             "name": "kunstmaan/google-api-custom",
@@ -3025,84 +3047,6 @@
                 "transformation"
             ],
             "time": "2017-09-09T03:53:30+00:00"
-        },
-        {
-            "name": "monolog/monolog",
-            "version": "1.23.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0",
-                "psr/log": "~1.0"
-            },
-            "provide": {
-                "psr/log-implementation": "1.0.0"
-            },
-            "require-dev": {
-                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
-                "doctrine/couchdb": "~1.0@dev",
-                "graylog2/gelf-php": "~1.0",
-                "jakub-onderka/php-parallel-lint": "0.9",
-                "php-amqplib/php-amqplib": "~2.4",
-                "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "~4.5",
-                "phpunit/phpunit-mock-objects": "2.3.0",
-                "ruflin/elastica": ">=0.90 <3.0",
-                "sentry/sentry": "^0.13",
-                "swiftmailer/swiftmailer": "^5.3|^6.0"
-            },
-            "suggest": {
-                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-                "ext-mongo": "Allow sending log messages to a MongoDB server",
-                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
-                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
-                "rollbar/rollbar": "Allow sending log messages to Rollbar",
-                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-                "sentry/sentry": "Allow sending log messages to a Sentry server"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Monolog\\": "src/Monolog"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
-                }
-            ],
-            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-            "homepage": "http://github.com/Seldaek/monolog",
-            "keywords": [
-                "log",
-                "logging",
-                "psr-3"
-            ],
-            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -4208,45 +4152,47 @@
             "time": "2018-01-22T07:32:57+00:00"
         },
         {
-            "name": "symfony/monolog-bundle",
-            "version": "v3.3.0",
+            "name": "symfony/acl-bundle",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "8204f3cd7c1bd6a6e2955c0a34475243a7bd9802"
+                "url": "https://github.com/symfony/acl-bundle.git",
+                "reference": "78553a279dd2b7c85062255f0599990b36ebf448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/8204f3cd7c1bd6a6e2955c0a34475243a7bd9802",
-                "reference": "8204f3cd7c1bd6a6e2955c0a34475243a7bd9802",
+                "url": "https://api.github.com/repos/symfony/acl-bundle/zipball/78553a279dd2b7c85062255f0599990b36ebf448",
+                "reference": "78553a279dd2b7c85062255f0599990b36ebf448",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "~1.22",
-                "php": ">=5.6",
-                "symfony/config": "~2.7|~3.3|~4.0",
-                "symfony/dependency-injection": "~2.7|~3.4.10|^4.0.10",
-                "symfony/http-kernel": "~2.7|~3.3|~4.0",
-                "symfony/monolog-bridge": "~2.7|~3.3|~4.0"
+                "ext-xml": "*",
+                "php": "^5.5.9|>=7.0.8",
+                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/http-kernel": "~3.4|~4.0",
+                "symfony/security-acl": "~2.7|~3.0",
+                "symfony/security-bundle": "~3.4|~4.0"
             },
             "require-dev": {
-                "symfony/console": "~2.7|~3.3|~4.0",
-                "symfony/phpunit-bridge": "^3.3|^4.0",
-                "symfony/yaml": "~2.7|~3.3|~4.0"
+                "doctrine/doctrine-bundle": "^1.6.12",
+                "symfony/console": "~3.4|~4.0",
+                "symfony/framework-bundle": "~3.4|~4.0",
+                "symfony/phpunit-bridge": "~3.4|~4.0",
+                "symfony/yaml": "~3.4|~4.0"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "To use the default dbal configuration"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev"
+                    "dev-master": "1.0-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Bundle\\MonologBundle\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
+                    "Symfony\\Bundle\\AclBundle\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4254,21 +4200,17 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony MonologBundle",
-            "homepage": "http://symfony.com",
-            "keywords": [
-                "log",
-                "logging"
-            ],
-            "time": "2018-06-04T05:55:43+00:00"
+            "description": "Symfony AclBundle",
+            "homepage": "https://symfony.com",
+            "time": "2018-01-03T11:21:11+00:00"
         },
         {
             "name": "symfony/polyfill-apcu",
@@ -6134,6 +6076,84 @@
             "time": "2016-10-27T15:30:36+00:00"
         },
         {
+            "name": "monolog/monolog",
+            "version": "1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2017-06-19T01:22:40+00:00"
+        },
+        {
             "name": "nelmio/alice",
             "version": "v2.3.5",
             "source": {
@@ -7148,6 +7168,69 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2015-06-21T13:59:46+00:00"
+        },
+        {
+            "name": "symfony/monolog-bundle",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/monolog-bundle.git",
+                "reference": "8204f3cd7c1bd6a6e2955c0a34475243a7bd9802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/8204f3cd7c1bd6a6e2955c0a34475243a7bd9802",
+                "reference": "8204f3cd7c1bd6a6e2955c0a34475243a7bd9802",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "~1.22",
+                "php": ">=5.6",
+                "symfony/config": "~2.7|~3.3|~4.0",
+                "symfony/dependency-injection": "~2.7|~3.4.10|^4.0.10",
+                "symfony/http-kernel": "~2.7|~3.3|~4.0",
+                "symfony/monolog-bridge": "~2.7|~3.3|~4.0"
+            },
+            "require-dev": {
+                "symfony/console": "~2.7|~3.3|~4.0",
+                "symfony/phpunit-bridge": "^3.3|^4.0",
+                "symfony/yaml": "~2.7|~3.3|~4.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bundle\\MonologBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony MonologBundle",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "log",
+                "logging"
+            ],
+            "time": "2018-06-04T05:55:43+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
