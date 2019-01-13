@@ -18,7 +18,8 @@
         "symfony/monolog-bundle": "^3.3",
         "symfony/debug-bundle": "^3.4",
         "symfony/web-profiler-bundle": "^3.4",
-        "symfony/web-server-bundle": "^3.4"
+        "symfony/web-server-bundle": "^3.4",
+        "symfony/expression-language": "^3.4"
     },
     "require-dev": {
         "behat/behat": "dev-master",
